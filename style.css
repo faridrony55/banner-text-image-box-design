@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Banner Part css */
+/* Banner Part css */
+.banner {
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.banner .hover_color{
+    padding: 10.50% 0;
+    display: flex;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+}
+.banner .hover_color .container{
+    flex-basis: 35%;
+    text-align: center;
+}
+.banner .hover_color .container .content_box{
+    padding: 10px 0;
+}
+.banner .hover_color .container .content_box .title{
+    font-family: "Goldenbook";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    line-height: 36px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    transition: all 0.6s ease-in-out;
+}
+.banner .hover_color .container .content_box .description{
+    font-family: "Goldenbook";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.45;
+    margin-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    transition: all 0.6s ease-in-out;
+}
+/* Banner Part css */
+/* Banner Part css */
+
+
+
+/* ImageText Block css*/
+/* ImageText Block css*/
+.imageText{
+    display: flex;
+    justify-content: center;
+    padding: 6% 0;
+}
+.imageText .container{
+    flex-basis: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.imageText .container .textBlock{
+    flex-basis: 50%;
+    /* background-color: #f2f2f2; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.imageText .container .textBlock .text_box{
+    text-align: center;
+    padding: 10% 20%;
+}
+.imageText .container .textBlock .text_box .title{
+    color: #444e5a;
+    font-weight: 400;
+    font-family: goldenbook;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.imageText .container .textBlock .text_box .line{
+    min-height: 2px;
+}
+.imageText .container .textBlock .text_box .description{
+    font-family: goldenbook;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #444e5ad7;
+    padding-top: 15px;
+}
+.imageText .container .textBlock .text_box .description span{
+    font-weight: 600;
+}
+.imageText .container .textBlock .text_box .description span a{
+    text-decoration: none;
+    font-style: italic;
+    color: #444e5a96;
+}
+
+
+
+
+.imageText .container .imageBlock{
+    flex-basis: 50%;
+    background-color: #f2f2f2;
+    transition: all 0.6s ease-in-out;
+}
+.imageText .container .imageBlock img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ImageText Block */
+/* ImageText Block */
+
+
+
+
+/* Responsive Zone Media Qery Css Part */
+/* Responsive Zone Media Qery Css Part */
+
+/* Max-width:1440px */
+@media (max-width:1440px) {
+    .banner .hover_color .container {
+        flex-basis: 50%;
+    }
+}
+/* Max-width:1440px */
+
+/* Max-width:1024px */
+@media (max-width:1024px) {
+    .banner .hover_color .container {
+        flex-basis: 65%;
+    }
+}
+/* Max-width:1024px */
+
+/* Max-width:768px */
+@media (max-width:768px) {
+    .banner .hover_color .container {
+        flex-basis: 80%;
+    }
+
+
+    .imageText .container .textBlock .text_box .title {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .imageText .container .textBlock .text_box {
+        padding: 10% 10%;
+    }
+}
+/* Max-width:768px */
+
+
+/* Max-width:550px */
+@media (max-width:550px) {
+    .banner .hover_color .container .content_box .title {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .imageText .container {
+        flex-direction: column;
+    }
+    .imageText .container .textBlock {
+        order: 2;
+    }
+    .imageText .container .textBlock .text_box {
+        padding: 10% 10%;
+    }
+    .imageText .container .textBlock .text_box .title {
+        font-size: 18px;
+    }
+}
+/* Max-width:550px */
+
+/* Max-width:412px */
+@media (max-width:412px) {
+    .banner .hover_color .container {
+        flex-basis: 90%;
+    }
+    .banner .hover_color .container .content_box .title {
+        font-size: 18px;
+    }
+    .banner .hover_color {
+        padding: 15% 0;
+    }
+}
+/* Max-width:412px */
+
+/* Max-width:375px */
+@media (max-width:375px) {
+    .banner .hover_color .container {
+        flex-basis: 90%;
+    }
+    .banner .hover_color .container .content_box .title {
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 1.4;
+    }
+    .banner .hover_color {
+        padding: 20% 0;
+    }
+}
+/* Max-width:375px */
+
+/* Responsive Zone Media Qery Css Part */
+/* Responsive Zone Media Qery Css Part */
